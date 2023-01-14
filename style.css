@@ -1,3 +1,174 @@
 *{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* logo and navbar started */
+.header{
+    background-color: #FFF4E7;
+    
+}
+.container{
+    padding: 0 10%;
+}
+.logo-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.logo{
+    font-size: 22px;
+}
+.logo h2 span{
+    color: #FF900E;
+}
+.navbar nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar nav ul li {
+    margin-left: 30px;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* logo and navbar finish */
+
+/* header description */
+.header-description{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 45px;
+    
+}
+.description{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.description h1{
+    font-size: 60px;
+}
+.description p{
+    color: #727272;
+    margin: 25px 0 20px;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #FF900E;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner img{
+    width: 100%;
+}
+/* header finish */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navbar nav ul{
+        flex-direction: column;
+        align-items: flex-end;
+        padding-left: 0px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .logo-navbar{
+        align-items: flex-start;
+    }
+    .description{
+        width: auto;
+    }
+    .description h1{
+        font-size: 30px;
+    }
 }
