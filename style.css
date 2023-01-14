@@ -195,14 +195,31 @@
 }
 /* some facts finish */
 
-
-
-
-
-
-
-
-
+/* our sponsors started */
+.sponsor{
+    text-align: center;
+}
+.sponsor h1{
+    font-size: 35px;
+}
+.sponsor p{
+    color: #727272;
+    margin: 20px 0 50px;
+}
+.marketplace{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 60px;
+}
+.company img{
+    filter: grayscale(100%);
+    transition: all 0.5s;
+}
+.company:hover img{
+    transform: translateY(-10px);
+    filter: none;
+}
+/* our sponsor finish */
 
 
 
@@ -281,8 +298,9 @@
     .quick-features, .features-love-enjoy{
         flex-direction: column;
     }
-    .feature-banner{
+    .feature-banner, .fact-box{
         grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
     }
     .features-love-enjoy-banner img{
         width: 100%;
